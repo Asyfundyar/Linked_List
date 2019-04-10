@@ -5,7 +5,7 @@ public class Linked_Lists {
 
 	public static void main(String[] args) {
 		
-		//1
+		//1 
 		LinkedList<String> list = new LinkedList<>();
 		
 		//2
@@ -18,13 +18,13 @@ public class Linked_Lists {
 		//3
 		System.out.println("The first list : " + list);
 		
-		//4
+		//4). This new string is added to the front of the list.
 		list.addFirst("firststring");
 		
-		//5 
+		//5). This new string is added to the end of the list.
 		list.addLast("laststring");
 		
-		//6
+		//6 The new list after the modifications is printed.
 		System.out.println("The second  list : " + list);
 
 		//7
